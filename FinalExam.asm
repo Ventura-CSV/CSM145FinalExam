@@ -28,7 +28,7 @@ repeat:
 
 
     mov al, byte 0
-    mov al, [input + eax]
+    mov al, [input]
     
     call printASCII
     mov eax, 4
